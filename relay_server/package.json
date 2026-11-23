@@ -1,0 +1,16 @@
+{
+  "name": "resiroute-web-proxy-gateway",
+  "version": "1.0.0",
+  "description": "Self-hosted HTTP/HTTPS Reverse Web Proxy Gateway with Upstream Residential Proxy Support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "https-proxy-agent": "^7.0.4",
+    "socks-proxy-agent": "^8.0.3"
+  }
+}
